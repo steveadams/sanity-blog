@@ -1,5 +1,5 @@
-@import '../styles/custom-media.css';
-@import '../styles/custom-properties.css';
+@import "../styles/custom-media.css";
+@import "../styles/custom-properties.css";
 
 .root {
   display: blog;
@@ -9,12 +9,6 @@
 
 .inList {
   composes: root;
-
-  @media (--media-min-medium) {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 2em;
-  }
 }
 
 .inGrid {
